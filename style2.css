@@ -118,7 +118,7 @@ h4 {
 .aboutus {
     width: auto;
     background: black;
-    font: 10px;
+    font: 2px;
     height: auto;
     position: relative;
     padding: 20px;
@@ -126,6 +126,7 @@ h4 {
     color: #fafafa;
     opacity: 0.90;
 }
+
 
 .main-container2 {
     height: 100VH;
