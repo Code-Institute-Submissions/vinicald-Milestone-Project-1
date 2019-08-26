@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca: 100, 200, 300, 400, 500, 600, 700|Exo:100, 200, 300, 400, 500, 600, 700');
+
+/* Colors */
+
+.bg-color-header {
+    background-color: #191919;
+}
+
+.bg-color-footer {
+    background-color: #191919;
+}
+
+.testcolor {
+    background-color: #fff;
+}
+
+/* Special Padding/Margin/Text */
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    font-family: "Lexend+Deca"
+}
+
+.general-text {
+    font-family: "Lexend+Deca", sans-serif;
+    font-weight: 200;
+    color: #fafafa;
+
+}
+
+.general-text-footer {
+    font-family: "Lexend+Deca", sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    color: #fafafa;
+
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/* Heading */
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: navajowhite;
+}
+
+/* Main Container */
+
+.main-container {
+    height: 100VH;
+    background: url(https://media-cdn.tripadvisor.com/media/photo-s/07/4d/ea/83/gourmet-food-parlour.jpg) no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+.jumbotron {
+    background: none;
+}
+
+.jumbotron-header {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.jumbotron-h2 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 25px;
+    width: 180px;
+}
+
+.btn--red {
+    margin-top: 20px;
+    color: white;
+    background-color: #191919;
+    font-family: "Lexend+Deca", sans-serif;
+}
+
+.btn--red: hover,
+.btn--red: active,
+.btn--red: focus,
+.btn--red: active:focus {
+    background-color: #f05f40;
+    border-color: #f05f40;
+}
+
+
+/* Footer */
+
+.navbar-light {}
