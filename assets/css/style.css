@@ -224,7 +224,6 @@ body {
 /* Media */
 
 @media screen and (max-width: 995px) {
-
     .main {
         padding: 0;
     }
