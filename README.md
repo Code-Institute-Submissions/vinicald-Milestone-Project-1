@@ -28,8 +28,9 @@ Galaxy S5, Pixel 2, Pixel 2 XL, iPhone 6/7/8 also all the Plus variations, iPhon
 ### Work based on other code
 I have created most of the code, but I have looked for some ideas on the CV exercise / Whiskey Drop and also I have used the bootstrap guide.
 
-
 ### What changed after user design experience (UDX) phase
 I had planned first to create a website with different sections but after creating the UDX phase I notice that it will be better to have a single page with everything to be more modern and to make it simple for the users. I also decide to make the menu as PDF file in order to keep the user in the same page so he can check the menu and book a table at the same time.
 
+### Logo
 
+The logo and the menu has been created for this project.
