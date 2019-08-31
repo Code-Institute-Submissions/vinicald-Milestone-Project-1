@@ -16,15 +16,15 @@
 
     <header>
         <nav class="navbar navbar-expand-lg navbar-light">
-            <a href="#" class="navbar-brand ml-3">Phobos</a>
+            <a href="#home" class="navbar-brand ml-3">Phobos</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" arial-controls="navbarMenu" aria-expand="false" aria-label="Toggle Navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse"></div>
             <div class="collapse navbar-collapse" id="navbarMenu">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a href="#" class="nav-link">Home</a>
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item">
                         <a href="#aboutus" class="nav-link">About Us</a>
@@ -33,10 +33,10 @@
                         <a href="#menu" class="nav-link">Menu</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Book a Table</a>
+                        <a href="#bookatable" class="nav-link">Book a Table</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Contact Us</a>
+                        <a href="#contactus" class="nav-link">Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -44,7 +44,7 @@
     </header>
 
     <main>
-        <div class="container-fluid p-0">
+        <div class="container-fluid p-0" id="home">
             <div class="site-content">
                 <div class="d-flex justify-content-center">
                     <div class="d-flex flex-column">
@@ -52,7 +52,7 @@
                         <p class="site-desc">First one and The original on Mars.<br>More than 10 Awards</br>
                         </p>
                         <div class="d-flex flex-row">
-                            <input type="button" value="Menu" class="btn site-btn1 px-4 py-3 mr-4 btn-light">
+                            <a href="#menu" class="btn site-btn1 px-4 py-3 mr-4 btn-light" role="button">Menu</a>
                         </div>
                     </div>
                 </div>
@@ -115,16 +115,18 @@
                     <div class="d-flex flex-column m-4">
                         <h1 class="heading-1">Menu</h1>
                         <p class="para">Check it below</p>
-                        <input type="button" value="Menu" class="btn btn-danger">
+                        <a href="assets/images/MENU.pdf" class="btn btn-danger" role="button" target="_blank" class="cv-pdf">Menu
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="bookatable">
-            <div class="container-fluid">
-                <div class="d-flex flex-column m-4">
+        <div class="bookatable" id="bookatable">
+            <div class="container-fluid bookcontent">
+                <div class="d-flex justify-content-center m-4 bookmedia">
                     <div class="cardtable">
+                        <h4 class="card-title">Book a Table Now</h4>
                         <h5 class="card-header info-color dark-text text-center py-4">
                             <strong>Book a table</strong>
                             <p>Send us a request and we will confirm to you if your table has been booked.</p>
@@ -168,7 +170,7 @@
         </div>
 
 
-        <div class="contactus bg-dark">
+        <div class="contactus bg-dark" id="contactus">
             <div class="container">
                 <div class="row">
                     <div class="col-md-7">
@@ -176,12 +178,19 @@
                     </div>
                     <div class="col-md-5">
                         <h1 class="text-white">
-                            Contact Us<br> Best Restaurant Nice Team to Work With.
+                            Contact Us<br> Best Restaurant and a Nice Team to Work With.
                         </h1>
-                        <p class="para-1">Send your message or just your CV and we will contact you.</p>
-                        <div class="form-inline justify-content-center">
-                            <input type="text" name="Email" id="email" placeholder="Email" size="40" class="form-control px-4 py-2">
-                            <input type="button" value="Contact Us" class="btn btn-danger btn-light">
+                        <p class="para-1">Send us your message</p>
+                        <div class="center-form">
+                            <form>
+                                <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required/>
+                                <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required/>
+                                <input type="textarea" row="5" name="projectsummary" id="projectsummary" class="form-control" placeholder="Message" required/>
+                                <div class="form-row text-center">
+                                    <div class="col">
+                                        <button type="submit" class="btn btn-secondary">Contact us</button>
+                                    </div>
+                                </div>
                         </div>
                     </div>
                 </div>
@@ -195,10 +204,10 @@
             <h4 class="my-4">Follow us below.</h4>
             <div class="social" style="margin: 5%;">
                 <div class="d-flex flex-row justify-content-center">
-                    <i class="fab fa-facebook-f m-2"></i>
-                    <i class="fab fa-twitter m-2"></i>
-                    <i class="fab fa-instagram m-2"></i>
-                    <i class="fab fa-youtube m-2"></i>
+                    <a href="#" target="_blank"><i class="fab fa-facebook-f m-2"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter m-2"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram m-2"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-youtube m-2"></i></a>
                 </div>
             </div>
             <hr>
@@ -209,4 +218,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
+
 </html>

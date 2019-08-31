@@ -36,14 +36,6 @@ body {
 
 /* Main Container */
 
-/*
-site-content {
-    background-image: url('../images/Bleach-Texture-Background-Monochromatic-Backdrop-2448282.jpg');
-    background-attachment: fixed;
-    background-size: cover;
-}
-*/
-
 .site-content {
     background-color: #BF402A;
     background-size: cover;
@@ -59,6 +51,7 @@ site-content {
     margin-top: 30%;
     margin-bottom: 6%;
     font-size: 50px;
+    text-align: center;
 }
 
 .site-desc {
@@ -116,6 +109,7 @@ site-content {
     background-image: url('../images/berry-cheesecake.jpg');
     background-size: cover;
     background-attachment: fixed;
+    padding-bottom: 5%;
 }
 
 
@@ -146,8 +140,23 @@ site-content {
 
 /* Book a Table */
 
+.bookatable {
+    background-color: lightgrey;
+}
+
+.bookatable .bookcontent {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.bookatable .card-title {
+    font-family: "Orbitron";
+    padding-bottom: 2%;
+    text-align: center;
+}
+
 .cardtable {
-    width: 20;
+    max-width: 70%;
 }
 
 .card-header {
@@ -161,7 +170,7 @@ site-content {
 /* Contact Us */
 
 .contactus {
-    margin-top: 8%;
+    margin-top: 0%;
 }
 
 .contactus .row .col-md-7 .col-md-5 {
@@ -172,6 +181,7 @@ site-content {
 .contactus h1 {
     color: white;
     font-family: "Orbitron";
+    line-height: 50px;
     font-size: 30px;
     text-decoration: none;
     margin-top: 20%;
@@ -180,13 +190,17 @@ site-content {
 .contactus .para-1 {
     color: white;
     font-family: "Orbitron";
-    margin-top: 7%;
     font-size: 23px;
-    margin-top: 30%;
+    margin-top: 12%;
+    margin-bottom: 10%;
+}
+
+.contactus .center-form {
+    margin-bottom: 10%;
 }
 
 .contactus .form-control {
-    margin-bottom: 2%;
+    margin-bottom: 5%;
 }
 
 /* Social */
@@ -237,7 +251,7 @@ site-content {
     }
 
     .bookatable .col-md-5 {
-        padding: 0% 15%;
+        width: 15rem;
     }
 
     footer input[type="button"] {
