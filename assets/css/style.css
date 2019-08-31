@@ -140,8 +140,15 @@ body {
 
 /* Book a Table */
 
+.col-md-4 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .bookatable {
     background-color: lightgrey;
+    text-align: center;
 }
 
 .bookatable .bookcontent {
@@ -156,7 +163,7 @@ body {
 }
 
 .cardtable {
-    max-width: 70%;
+    max-width: 80%;
 }
 
 .card-header {
@@ -226,7 +233,48 @@ body {
     }
 }
 
+@media screen and (max-width: 640px) {
+    .main {
+        padding: 0;
+    }
+
+    .site-content .site-title {
+        font-size: 30px;
+        padding: 15%;
+    }
+
+    .site-content .site-btn1 {
+        margin-left: 15%;
+    }
+
+    .aboutus .heading-1,
+    section-1 .heading-2 {
+        font-size: 25px;
+    }
+
+    .aboutus .col-md-4 {
+        padding: 5%;
+        margin-left: 8%;
+    }
+
+    .aboutus .card {
+        width: 15rem;
+    }
+
+    .bookatable .col-md-5 {
+        width: 15rem;
+    }
+
+    footer input[type="button"] {
+        margin-top: 5%;
+    }
+}
+
+
 @media screen and (max-width: 320px) {
+    .main {
+        padding: 0;
+    }
     .site-content .site-title {
         font-size: 30px;
         padding: 15%;
